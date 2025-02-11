@@ -16,7 +16,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     formMessage.style.color = "red";
   }
 });
-q
+
 const sections = document.querySelectorAll('section');
 
 document.addEventListener('DOMContentLoaded', () => {
