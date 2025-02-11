@@ -62,3 +62,112 @@ footer {
 .hidden {
   display: none;
 }
+
+/* Estilos para el formulario */
+#formulario h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #4c74af;
+}
+
+#webFeedbackForm label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+#webFeedbackForm textarea,
+#webFeedbackForm select {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+#webFeedbackForm button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4c74af;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#webFeedbackForm button:hover {
+  background-color: #4c74af;
+}
+
+#feedbackMessage {
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #4c74af;
+}
+
+/* Responsivo para pantallas más pequeñas */
+@media (max-width: 768px) {
+  #formulario {
+    padding: 1rem;
+  }
+
+  #formulario h2 {
+    font-size: 1.5rem;
+  }
+}
+
+#volver button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4c74af;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del menú de navegación */
+#frameworkMenu {
+  display: flex; /* Hacer que los enlaces sean horizontales */
+  gap: 15px; /* Separación entre enlaces */
+  justify-content: center; /* Centrar los enlaces horizontalmente */
+  align-items: center; /* Asegurar que estén alineados verticalmente */
+  margin: 0 auto; /* Centrar el contenedor si es necesario */
+}
+
+#frameworkMenu a {
+  text-decoration: none; /* Quitar el subrayado */
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#frameworkMenu a:hover {
+  background-color: #fff;
+  color: #4c74af; /* Cambiar texto a blanco al pasar el mouse */
+}
+
+/* Menú responsivo para pantallas más pequeñas */
+@media (max-width: 768px) {
+  #frameworkMenu {
+    flex-direction: column; /* Cambiar a vertical en pantallas pequeñas */
+    gap: 5px;
+  }
+}
+

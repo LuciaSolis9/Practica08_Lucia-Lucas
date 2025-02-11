@@ -24,4 +24,19 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  document.getElementById("webFeedbackForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevenir el comportamiento por defecto (recarga de la página)
+
+    // Obtener los valores del formulario
+    const rating = document.getElementById("rating").value;
+
+    // Mostrar mensaje de confirmación
+    const feedbackMessage = document.getElementById("feedbackMessage");
+    feedbackMessage.textContent = `¡Gracias por tu opinión! Has calificado Angular con un ${rating}.`;
+    feedbackMessage.style.color = "green";
+
+    // Simular un "reseteo" del formulario
+    document.getElementById("webFeedbackForm").reset();
+  });
+
 });
