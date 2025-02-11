@@ -16,17 +16,18 @@ header {
 }
 
 main {
+  padding: 1rem;
+  margin-bottom: 70px;
+}
+
+section {
   padding: 2rem;
   max-width: 800px;
   margin: 0 auto;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 70px;
-}
-
-section {
-  margin-bottom: 2rem;
+  margin-bottom: 10px;
 }
 
 h2, h3, a {
