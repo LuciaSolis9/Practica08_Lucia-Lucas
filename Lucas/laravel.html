@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frameworks - Laravel</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="icon" href="img/framework-icono.png" sizes="any">
+  <link rel="apple-touch-icon" href="img/framework-icono.png">
+</head>
+<body>
+<header>
+  <h1>Frameworks - Laravel</h1>
+  <div class="dropdown">
+    <button class="dropbtn">☰</button>
+    <div class="dropdown-content">
+      <a href="/Lucas/laravel.html">Laravel</a>
+      <a href="/Lucia/angular.html">Angular</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="introduccion">
+    <h2>¿Qué es Laravel?</h2>
+    <p>Laravel es un framework de PHP diseñado para desarrollar aplicaciones web de manera sencilla y elegante.  Proporciona una estructura robusta y un conjunto de herramientas que facilitan tareas comunes como el enrutamiento, la gestión de bases de datos, la autenticación y el manejo de plantillas.</p>
+    <a href="https://laravel.com/">
+      <img src="img/Laravel_Logo.png" alt="Laravel Logo" class="intro-image">
+    </a>
+  </section>
+
+  <section id="caracteristicas">
+    <h2>Características principales</h2>
+    <ul>
+      <li><strong>Sintaxis elegante y expresiva:</strong> Laravel se enfoca en una sintaxis clara y legible, lo que facilita el desarrollo y mantenimiento del código.</li>
+      <li><strong>Sistema de enrutamiento sencillo:</strong> Define rutas de manera intuitiva para gestionar las solicitudes y respuestas de la aplicación.</li>
+      <li><strong>ORM Eloquent para bases de datos:</strong> Simplifica la interacción con bases de datos relacionales mediante un modelo de objetos.</li>
+      <li><strong>Motor de plantillas Blade:</strong> Permite crear vistas dinámicas y reutilizables de forma eficiente.</li>
+      <li><strong>Middleware y autenticación:</strong> Ofrece herramientas para gestionar el acceso y la seguridad de la aplicación.</li>
+      <li><strong>Sistema de caché:</strong> Mejora el rendimiento almacenando en caché datos y vistas.</li>
+      <li><strong>Artisan:</strong>  Una interfaz de línea de comandos que automatiza tareas comunes como la creación de controladores, modelos y migraciones.</li>
+      <li><strong>Testing:</strong> Facilita la creación de pruebas unitarias y de integración para asegurar la calidad del código.</li>
+    </ul>
+  </section>
+
+  <section id="arquitectura">
+    <h2>Arquitectura de Laravel</h2>
+    <p>Laravel sigue el patrón de arquitectura Modelo-Vista-Controlador (MVC), lo que permite separar las responsabilidades de la aplicación en diferentes capas.  Esto mejora la organización y el mantenimiento del código.</p>
+    <img src="img/img01.jpg" alt="Diagrama MVC" class="section-image"> </section>
+
+  <section id="ventajas">
+    <h2>Ventajas de usar Laravel</h2>
+    <ul>
+      <li><strong>Desarrollo rápido:</strong> Laravel proporciona herramientas y características que aceleran el proceso de desarrollo.</li>
+      <li><strong>Comunidad activa:</strong> Cuenta con una gran comunidad de desarrolladores que ofrecen soporte y recursos.</li>
+      <li><strong>Escalabilidad:</strong> Permite crear aplicaciones escalables y de alto rendimiento.</li>
+      <li><strong>Seguridad:</strong> Incorpora medidas de seguridad para proteger la aplicación de vulnerabilidades comunes.</li>
+      <li><strong>Mantenibilidad:</strong> La arquitectura MVC y la sintaxis clara facilitan el mantenimiento del código.</li>
+    </ul>
+  </section>
+
+  <section id="ejemplos">
+    <h2>Ejemplos de uso</h2>
+    <p>Laravel se utiliza para desarrollar una amplia variedad de aplicaciones web, desde pequeños sitios web hasta grandes plataformas empresariales. Algunos ejemplos incluyen:</p>
+    <ul>
+      <li>Sistemas de gestión de contenido (CMS)</li>
+      <li>Aplicaciones de comercio electrónico</li>
+      <li>Plataformas de redes sociales</li>
+      <li>APIs RESTful</li>
+    </ul>
+    <img src="img/img02.jpg" alt="Ejemplo E-commerce" class="section-image">
+  </section>
+
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si tienes dudas, escríbenos:</p>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Tu Nombre" required>
+      <input type="email" id="email" placeholder="Tu Email" required>
+      <textarea id="message" placeholder="Tu Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Sitio Web Lucía - Lucas. Todos los derechos reservados.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
