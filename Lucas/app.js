@@ -17,19 +17,3 @@ document.getElementById("contactForm").addEventListener("submit", function(event
   }
 });
 
-const sections = document.querySelectorAll('section');
-
-document.addEventListener('DOMContentLoaded', () => {
-  const sections = document.querySelectorAll('section');
-
-  sections.forEach(section => {
-    const button = section.querySelector('.toggle-button');
-    const content = section.querySelector('.section-content');
-
-    button.addEventListener('click', () => {
-      content.style.maxHeight = content.style.maxHeight === '0px' ? content.scrollHeight + 'px' : '0px';
-      button.querySelector('i').classList.toggle('fa-plus');
-      button.querySelector('i').classList.toggle('fa-minus');
-    });
-  });
-});
